@@ -5,27 +5,23 @@ import Title from "./components/Title";
 import matches from "./matchcards.json";
 import "./App.css";
 
-
+function shuffleData(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  };
 
 class App extends Component {
     
     // Setting this.state.matches to the matches json array
     state = {
         matches,
-
+        shuffleData
     };
 
-    shuffleData = data => {
-        let i = data.length - 1;
-        while (i > 0) {
-          const j = Math.floor(Math.random() * (i + 1));
-          const temp = data[i];
-          data[i] = data[j];
-          data[j] = temp;
-          i--;
-        }
-        return data;
-      };
+
 
     render() {
         return (
@@ -39,6 +35,7 @@ class App extends Component {
                         id={match.id}
                         key={match.id}
                         image={match.image}
+                        handleShuffle={this.handleShuffle}
                     />
                 ))}
             </Wrapper>
