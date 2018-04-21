@@ -1,62 +1,62 @@
-[
+    [
     {
       "id": 1,
-      "image": "./images/birdo.png",
+      "image": ".public/images/birdo.png",
       "clicked": false
     },
     {
       "id": 2,
-      "image": "./images/Bowser.png",
+      "image": ".public/images/Bowser.png",
       "clicked": false
     },
     {
       "id": 3,
-      "image": "./images/daisy.png",
+      "image": ".public/images/daisy.png",
       "clicked": false
     },
     {
       "id": 4,
-      "image": "./images/larrykoopa.png",
+      "image": ".public/images/larrykoopa.png",
       "clicked": false
     },
     {
       "id": 5,
-      "image": "./images/luigi.png",
+      "image": ".public/images/luigi.png",
       "clicked": false
     },
     {
       "id": 6,
-      "image": "./images/mario.png",
+      "image": ".public/images/mario.png",
       "clicked": false
     },
     {
       "id": 7,
-      "image": "./images/mortonkoopa.png",
+      "image": ".public/images/mortonkoopa.png",
       "clicked": false
     },
     {
       "id": 8,
-      "image": "./images/peach_MP100.png",
+      "image": ".public/images/peach_MP100.png",
       "clicked": false
     },
     {
       "id": 9,
-      "image": "./images/toad.jpg",
+      "image": ".public/images/toad.jpg",
       "clicked": false
     },
     {
       "id": 10,
-      "image": "./images/wario.png",
+      "image": ".public/images/wario.png",
       "clicked": false
     },
     {
       "id": 11,
-      "image": "./images/yoshi.png",
+      "image": ".public/images/yoshi.png",
       "clicked": false
     },
     {
       "id": 12,
-      "image": "./images/Uhura.jpg",
+      "image": ".public/images/Uhura.png",
       "clicked": false
     }
   ]
